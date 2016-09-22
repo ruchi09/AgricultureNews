@@ -12,8 +12,11 @@ public class Content extends AppCompatActivity {
     ImageView i;
 
     String  [] head;
+    String []h1;
+
     String [] date;
-    int [] images={R.drawable.news1,R.drawable.news2,R.drawable.news3,R.drawable.news4,R.drawable.news5,R.drawable.news6,R.drawable.news7,R.drawable.news8,R.drawable.news9,R.drawable.news10,R.drawable.news11};
+
+    int [] images={R.drawable.tn1,R.drawable.tn2,R.drawable.news1,R.drawable.news2,R.drawable.news3,R.drawable.news4,R.drawable.news5,R.drawable.news6,R.drawable.news7,R.drawable.news8,R.drawable.news9,R.drawable.news10,R.drawable.news11};
 
 
     @Override
@@ -22,7 +25,8 @@ public class Content extends AppCompatActivity {
         setContentView(R.layout.activity_content);
         head=getResources().getStringArray(R.array.Headline);
         date=getResources().getStringArray(R.array.Date);
-
+        h1=getResources().getStringArray(R.array.Andhra);
+       
         int pos;
 
         Intent intent = getIntent();
@@ -34,10 +38,20 @@ public class Content extends AppCompatActivity {
 
         i=(ImageView)findViewById(R.id.imageView);
 
+       if(pos>1)
+       {
          t1.setText(head[pos]);
          t2.setText(date[pos]);
-         i.setImageResource(images[pos]);
+         i.setImageResource(images[pos+2]);
+       }
 
+        else
+         {
+             t1.setText(h1[pos]);
+             t2.setText(date[pos]);
+             i.setImageResource(images[pos]);
+
+         }
 
     }
 }

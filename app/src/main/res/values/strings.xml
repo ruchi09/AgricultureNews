@@ -13,7 +13,25 @@
         <item>Kharif crop planting jumps 4% year on year</item>
         <item>NABARD to raise Rs 77,000 crore to fund irrigation projects</item>
         <item>Costly labour boosts farm machine sales</item>
+
     </string-array>
+
+    <string-array name="Andhra">
+
+        <item> How Mango Saplings Are Turning around the Fortunes of Farmers in Anantpur</item>
+        <item>Normal rain in 23 districts, near normal in remaining TN districts</item>
+
+
+    </string-array>
+
+    <string-array name="Haryana">
+
+        <item>Agriculture ministry cautions Punjab, Haryana, Rajasthan to avoid white fly on cotton</item>
+        <item>US may collaborate with Haryana on agriculture</item>
+    </string-array>
+
+
+
     <string-array name="Date">
         <item>3 Hours ago</item>
         <item>Sep 17, 2016</item>
