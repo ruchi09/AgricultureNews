@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AgricultureNews</string>
+
+    <string-array name="Headline">
+        <item>Sufficient fertiliser, seeds to meet rabi demand: Govt</item>
+        <item>SOPA to send five-member delegation to promote soybean export to Asian nations</item>
+        <item>Government looking at Brazil to grow pulses, says Ram Vilas Paswan</item>
+        <item>Kharif acreage 3.6% higher than year ago</item>
+        <item>No health expert in panel to examine GM mustard biosafety data</item>
+        <item>Bumper crop may pull down olive oil prices by 20 per cent</item>
+        <item>Work on proposed fertiliser plant in Madhya Pradesh to start this year: Ananth Kumar</item>
+        <item>Venkaiah Naidu stresses on technology to make agriculture profitable</item>
+        <item>Kharif crop planting jumps 4% year on year</item>
+        <item>NABARD to raise Rs 77,000 crore to fund irrigation projects</item>
+        <item>Costly labour boosts farm machine sales</item>
+    </string-array>
+    <string-array name="Date">
+        <item>3 Hours ago</item>
+        <item>Sep 17, 2016</item>
+        <item>Sep 17, 2016</item>
+        <item>Sep 16, 2016</item>
+        <item>Sep 15, 2016</item>
+        <item>Sep 14, 2016</item>
+        <item>Sep 12, 2016</item>
+        <item>Sep 11, 2016</item>
+        <item>Sep 9, 2016</item>
+        <item>Sep 6, 2016</item>
+        <item>Sep 5, 2016</item>
+
+    </string-array>
+
+
+
+
+</resources>
